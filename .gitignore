@@ -1,0 +1,22 @@
+node_modules
+dist
+.env
+.vercel/
+.env.*
+!.env.example
+references/
+.gstack/
+
+# 子代理执行计划时的临时工作区（briefs/reports），不是项目内容
+.superpowers/
+_raw/
+_bak/
+
+# 构建/运行产物与本机状态，不是项目内容
+*.log
+__pycache__/
+.claude/
+
+# Redacted browser QA results and screenshots
+.artifacts/
+.wrangler

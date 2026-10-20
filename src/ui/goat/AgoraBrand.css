@@ -1,0 +1,53 @@
+.arena-agora-header { position: absolute; top: max(24px, env(safe-area-inset-top)); left: max(28px, env(safe-area-inset-left), 9vw); right: max(28px, env(safe-area-inset-right), 4vw); display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.arena-partners { display: flex; align-items: center; gap: 24px; min-width: 0; }
+.arena-reactor-brand { display: grid; gap: 5px; flex: none; border-left: 1px solid #ffffff38; padding: 4px 0 4px 24px; color: #f7f8fb; text-decoration: none; white-space: nowrap; }
+.arena-reactor-name { display: flex; align-items: center; gap: 12px; font: 800 22px/1 'DM Sans', sans-serif; letter-spacing: -.7px; }
+.arena-reactor-name > span { color: #9df35b; font-size: 15px; }
+.arena-reactor-model { color: #b5bfcc; font: 700 10px/1 'DM Sans', sans-serif; letter-spacing: 1.5px; text-transform: uppercase; }
+.arena-reactor-brand:hover .arena-reactor-model { color: #9df35b; }
+.arena-reactor-brand:focus-visible { outline: 2px solid #9df35b; outline-offset: 6px; }
+.arena-agora-brand { display: inline-flex; flex: none; align-items: center; gap: 12px; min-height: 55px; color: #f7f8fb; text-decoration: none; white-space: nowrap; }
+.arena-agora-brand img { display: block; width: 116px; height: 55px; object-fit: contain; }
+.arena-agora-powered { color: rgba(247,248,251,.7); font: 600 11px/1 'DM Sans', sans-serif; }
+.arena-agora-rte { padding-left: 12px; border-left: 1px solid rgba(0,184,228,.4); font: 800 15px/1 'DM Sans', sans-serif; letter-spacing: 1.4px; }
+.arena-agora-rte abbr { text-decoration: none; }
+.arena-agora-build { display: inline-flex; align-items: center; gap: 10px; padding: 10px 0; color: rgba(247,248,251,.7); font: 600 11px/1 'DM Sans', sans-serif; text-decoration: none; }
+.arena-agora-build span { color: #00b8e4; font-size: 18px; }
+.arena-agora-brand:hover .arena-agora-powered, .arena-agora-build:hover { color: #fff; }
+.arena-agora-brand:focus-visible, .arena-agora-build:focus-visible { outline: 2px solid #00b8e4; outline-offset: 6px; }
+.arena-agora-brand.compact { min-height: 42px; gap: 10px; }
+.arena-agora-brand.compact img { width: 88px; height: 42px; }
+.arena-agora-brand.compact .arena-agora-powered { font-size: 10px; }
+.arena-agora-brand.compact .arena-agora-rte { padding-left: 10px; font-size: 12px; }
+.setup-head > .arena-agora-brand { margin-left: auto; }
+.online-entry-body > .arena-agora-brand { justify-self: start; }
+@media (max-height: 480px) {
+  .arena-agora-header { top: max(10px, env(safe-area-inset-top)); }
+  .arena-agora-header .arena-agora-brand { min-height: 42px; }
+  .arena-agora-header .arena-agora-brand img { width: 96px; height: 45px; }
+  .arena-agora-header .arena-agora-powered { font-size: 10px; }
+  .arena-agora-header .arena-agora-rte { font-size: 12px; }
+}
+@media (max-width: 700px) {
+  .arena-partners { gap: 16px; }
+  .arena-reactor-brand { padding-left: 16px; }
+  .arena-agora-header { left: max(28px, env(safe-area-inset-left), 9vw); right: max(24px, env(safe-area-inset-right)); }
+  .arena-agora-build { font-size: 10px; }
+  .setup-head > .arena-agora-brand.compact .arena-agora-rte { display: none; }
+  .online-lobby .setup-head > .arena-agora-brand.compact .arena-agora-powered { display: none; }
+}
+@media (max-width: 580px) {
+  .arena-agora-header .arena-agora-powered, .arena-agora-header .arena-agora-build { display: none; }
+  .arena-reactor-name { font-size: 19px; }
+  .arena-reactor-model { font-size: 9px; letter-spacing: 1px; }
+  .setup-head > .arena-agora-brand.compact { gap: 7px; }
+  .setup-head > .arena-agora-brand.compact img { width: 72px; height: 34px; }
+  .setup-head > .arena-agora-brand.compact .arena-agora-powered { font-size: 9px; }
+  .arena-agora-header .arena-agora-rte { display: none; }
+}
+@media (max-height: 360px) {
+  .arena-agora-header { top: max(6px, env(safe-area-inset-top)); }
+  .arena-agora-header .arena-agora-brand { min-height: 38px; }
+  .arena-agora-header .arena-agora-brand img { width: 80px; height: 38px; }
+  .arena-agora-header + .start-copy { transform: translateY(16px); }
+}

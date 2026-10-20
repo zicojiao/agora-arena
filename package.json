@@ -1,0 +1,47 @@
+{
+  "name": "agora-arena",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build && node scripts/copy-reactor-wasm.mjs",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "verify": "npm test && npm run build",
+    "test:e2e": "node scripts/qa-online.mjs",
+    "test:release": "vitest run tests/demoCombat.test.ts tests/arenaHealth.test.ts tests/vercelHosting.test.mjs tests/proDifficulty.test.ts tests/rookieDifficulty.test.ts tests/ai.test.ts tests/accessGate.test.mjs tests/voiceMove.test.ts tests/liveVoiceMove.test.ts tests/voiceEndpoint.test.mjs tests/h3SessionLifecycle.test.ts tests/onlineRoom.test.ts tests/lockstep.test.ts tests/ultimatePrompt.test.ts tests/originalAtlas.test.ts tests/originalRoster.test.ts tests/fasth3Ultimate.test.ts tests/koOutro.test.ts tests/damageReactions.test.ts tests/i18n.test.ts tests/font-coverage.test.mjs",
+    "deploy:vercel": "vercel --prod",
+    "deploy:workers": "npm run build && wrangler deploy",
+    "deploy": "npm run deploy:vercel"
+  },
+  "dependencies": {
+    "@reactor-models/fast-h3-omni": "^0.2.1",
+    "@reactor-team/js-sdk": "^3.0.2",
+    "@vercel/functions": "^3.10.1",
+    "agora-agent-client-toolkit": "^1.2.0",
+    "agora-agents": "^2.8.0",
+    "agora-rtc-sdk-ng": "^4.24.3",
+    "agora-rtm": "^2.2.3",
+    "agora-token": "^2.0.5",
+    "lucide-react": "^0.544.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.3",
+    "playwright-core": "^1.64.1",
+    "sharp": "^0.35.4",
+    "typescript": "^6.0.3",
+    "vite": "^8.1.2",
+    "vitest": "^4.1.9",
+    "wrangler": "^4.37.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

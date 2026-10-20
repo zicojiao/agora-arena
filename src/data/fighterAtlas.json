@@ -1,0 +1,3535 @@
+{
+  "version": 1,
+  "characters": {
+    "emberpaw": {
+      "portraitUrl": "fighters/emberpaw/portrait.webp",
+      "sheets": {
+        "movement": {
+          "url": "fighters/emberpaw/movement.webp",
+          "width": 1536,
+          "height": 1024,
+          "referenceHeight": 340,
+          "frames": [
+            {
+              "x": 57,
+              "y": 18,
+              "w": 312,
+              "h": 340,
+              "anchorX": 250,
+              "anchorY": 356,
+              "flipX": false
+            },
+            {
+              "x": 420,
+              "y": 11,
+              "w": 333,
+              "h": 348,
+              "anchorX": 628,
+              "anchorY": 357,
+              "flipX": false
+            },
+            {
+              "x": 812,
+              "y": 17,
+              "w": 295,
+              "h": 344,
+              "anchorX": 991,
+              "anchorY": 359,
+              "flipX": false
+            },
+            {
+              "x": 1170,
+              "y": 27,
+              "w": 318,
+              "h": 331,
+              "anchorX": 1411,
+              "anchorY": 356,
+              "flipX": false
+            },
+            {
+              "x": 28,
+              "y": 361,
+              "w": 391,
+              "h": 292,
+              "anchorX": 247,
+              "anchorY": 651,
+              "flipX": false
+            },
+            {
+              "x": 443,
+              "y": 366,
+              "w": 340,
+              "h": 305,
+              "anchorX": 559,
+              "anchorY": 669,
+              "flipX": false
+            },
+            {
+              "x": 822,
+              "y": 367,
+              "w": 313,
+              "h": 311,
+              "anchorX": 927,
+              "anchorY": 677,
+              "flipX": true
+            },
+            {
+              "x": 1189,
+              "y": 431,
+              "w": 305,
+              "h": 242,
+              "anchorX": 1374,
+              "anchorY": 671,
+              "flipX": false
+            },
+            {
+              "x": 35,
+              "y": 735,
+              "w": 332,
+              "h": 253,
+              "anchorX": 222,
+              "anchorY": 986,
+              "flipX": false
+            },
+            {
+              "x": 461,
+              "y": 678,
+              "w": 274,
+              "h": 272,
+              "anchorX": 626,
+              "anchorY": 948,
+              "flipX": false
+            },
+            {
+              "x": 811,
+              "y": 682,
+              "w": 295,
+              "h": 306,
+              "anchorX": 1019,
+              "anchorY": 986,
+              "flipX": false
+            },
+            {
+              "x": 1194,
+              "y": 736,
+              "w": 306,
+              "h": 258,
+              "anchorX": 1362,
+              "anchorY": 992,
+              "flipX": false
+            }
+          ]
+        },
+        "combat": {
+          "url": "fighters/emberpaw/combat.webp",
+          "width": 1536,
+          "height": 1024,
+          "referenceHeight": 320,
+          "frames": [
+            {
+              "x": 23,
+              "y": 15,
+              "w": 332,
+              "h": 320,
+              "anchorX": 214,
+              "anchorY": 333,
+              "flipX": false
+            },
+            {
+              "x": 391,
+              "y": 15,
+              "w": 389,
+              "h": 322,
+              "anchorX": 583,
+              "anchorY": 335,
+              "flipX": false
+            },
+            {
+              "x": 787,
+              "y": 15,
+              "w": 295,
+              "h": 322,
+              "anchorX": 965,
+              "anchorY": 335,
+              "flipX": false
+            },
+            {
+              "x": 1112,
+              "y": 92,
+              "w": 403,
+              "h": 245,
+              "anchorX": 1326,
+              "anchorY": 336,
+              "flipX": false
+            },
+            {
+              "x": 30,
+              "y": 337,
+              "w": 291,
+              "h": 331,
+              "anchorX": 195,
+              "anchorY": 666,
+              "flipX": false
+            },
+            {
+              "x": 390,
+              "y": 337,
+              "w": 338,
+              "h": 268,
+              "anchorX": 648,
+              "anchorY": 603,
+              "flipX": false
+            },
+            {
+              "x": 765,
+              "y": 401,
+              "w": 381,
+              "h": 266,
+              "anchorX": 813,
+              "anchorY": 665,
+              "flipX": false
+            },
+            {
+              "x": 1153,
+              "y": 382,
+              "w": 353,
+              "h": 286,
+              "anchorX": 1360,
+              "anchorY": 666,
+              "flipX": false
+            },
+            {
+              "x": 27,
+              "y": 668,
+              "w": 269,
+              "h": 336,
+              "anchorX": 189,
+              "anchorY": 1002,
+              "flipX": false
+            },
+            {
+              "x": 387,
+              "y": 668,
+              "w": 343,
+              "h": 326,
+              "anchorX": 572,
+              "anchorY": 992,
+              "flipX": false
+            },
+            {
+              "x": 761,
+              "y": 714,
+              "w": 380,
+              "h": 278,
+              "anchorX": 954,
+              "anchorY": 990,
+              "flipX": false
+            },
+            {
+              "x": 1178,
+              "y": 677,
+              "w": 326,
+              "h": 317,
+              "anchorX": 1365,
+              "anchorY": 992,
+              "flipX": false
+            }
+          ]
+        },
+        "reactions": {
+          "url": "fighters/emberpaw/reactions.webp",
+          "width": 1536,
+          "height": 1024,
+          "referenceHeight": 339,
+          "frames": [
+            {
+              "x": 29,
+              "y": 20,
+              "w": 314,
+              "h": 339,
+              "anchorX": 206,
+              "anchorY": 357,
+              "flipX": false
+            },
+            {
+              "x": 410,
+              "y": 82,
+              "w": 322,
+              "h": 277,
+              "anchorX": 612,
+              "anchorY": 357,
+              "flipX": false
+            },
+            {
+              "x": 794,
+              "y": 14,
+              "w": 335,
+              "h": 348,
+              "anchorX": 998,
+              "anchorY": 360,
+              "flipX": false
+            },
+            {
+              "x": 1161,
+              "y": 77,
+              "w": 335,
+              "h": 283,
+              "anchorX": 1368,
+              "anchorY": 358,
+              "flipX": false
+            },
+            {
+              "x": 38,
+              "y": 375,
+              "w": 359,
+              "h": 282,
+              "anchorX": 172,
+              "anchorY": 655,
+              "flipX": false
+            },
+            {
+              "x": 485,
+              "y": 412,
+              "w": 225,
+              "h": 232,
+              "anchorX": 590,
+              "anchorY": 642,
+              "flipX": false
+            },
+            {
+              "x": 758,
+              "y": 392,
+              "w": 346,
+              "h": 250,
+              "anchorX": 942,
+              "anchorY": 640,
+              "flipX": false
+            },
+            {
+              "x": 1133,
+              "y": 527,
+              "w": 394,
+              "h": 121,
+              "anchorX": 1322,
+              "anchorY": 646,
+              "flipX": false
+            },
+            {
+              "x": 33,
+              "y": 702,
+              "w": 339,
+              "h": 288,
+              "anchorX": 225,
+              "anchorY": 988,
+              "flipX": false
+            },
+            {
+              "x": 443,
+              "y": 660,
+              "w": 315,
+              "h": 340,
+              "anchorX": 606,
+              "anchorY": 998,
+              "flipX": false
+            },
+            {
+              "x": 799,
+              "y": 663,
+              "w": 289,
+              "h": 346,
+              "anchorX": 964,
+              "anchorY": 1007,
+              "flipX": false
+            },
+            {
+              "x": 1152,
+              "y": 749,
+              "w": 352,
+              "h": 244,
+              "anchorX": 1292,
+              "anchorY": 991,
+              "flipX": false
+            }
+          ]
+        }
+      }
+    },
+    "cloudhop": {
+      "portraitUrl": "fighters/cloudhop/portrait.webp",
+      "sheets": {
+        "movement": {
+          "url": "fighters/cloudhop/movement.webp",
+          "width": 1448,
+          "height": 1086,
+          "referenceHeight": 376,
+          "frames": [
+            {
+              "x": 72,
+              "y": 2,
+              "w": 232,
+              "h": 376,
+              "anchorX": 190,
+              "anchorY": 376,
+              "flipX": false
+            },
+            {
+              "x": 450,
+              "y": 3,
+              "w": 230,
+              "h": 372,
+              "anchorX": 564,
+              "anchorY": 373,
+              "flipX": false
+            },
+            {
+              "x": 833,
+              "y": 3,
+              "w": 218,
+              "h": 375,
+              "anchorX": 957,
+              "anchorY": 376,
+              "flipX": false
+            },
+            {
+              "x": 1215,
+              "y": 8,
+              "w": 209,
+              "h": 375,
+              "anchorX": 1310,
+              "anchorY": 381,
+              "flipX": true
+            },
+            {
+              "x": 57,
+              "y": 395,
+              "w": 323,
+              "h": 326,
+              "anchorX": 321,
+              "anchorY": 719,
+              "flipX": false
+            },
+            {
+              "x": 496,
+              "y": 395,
+              "w": 209,
+              "h": 322,
+              "anchorX": 596,
+              "anchorY": 715,
+              "flipX": false
+            },
+            {
+              "x": 831,
+              "y": 392,
+              "w": 269,
+              "h": 326,
+              "anchorX": 1040,
+              "anchorY": 716,
+              "flipX": false
+            },
+            {
+              "x": 1214,
+              "y": 464,
+              "w": 180,
+              "h": 273,
+              "anchorX": 1285,
+              "anchorY": 735,
+              "flipX": false
+            },
+            {
+              "x": 102,
+              "y": 817,
+              "w": 222,
+              "h": 252,
+              "anchorX": 201,
+              "anchorY": 1067,
+              "flipX": false
+            },
+            {
+              "x": 470,
+              "y": 737,
+              "w": 200,
+              "h": 283,
+              "anchorX": 571,
+              "anchorY": 1018,
+              "flipX": false
+            },
+            {
+              "x": 796,
+              "y": 737,
+              "w": 256,
+              "h": 329,
+              "anchorX": 986,
+              "anchorY": 1064,
+              "flipX": false
+            },
+            {
+              "x": 1189,
+              "y": 790,
+              "w": 226,
+              "h": 279,
+              "anchorX": 1308,
+              "anchorY": 1067,
+              "flipX": false
+            }
+          ]
+        },
+        "combat": {
+          "url": "fighters/cloudhop/combat.webp",
+          "width": 1448,
+          "height": 1086,
+          "referenceHeight": 349,
+          "frames": [
+            {
+              "x": 34,
+              "y": 10,
+              "w": 263,
+              "h": 349,
+              "anchorX": 169,
+              "anchorY": 357,
+              "flipX": false
+            },
+            {
+              "x": 390,
+              "y": 10,
+              "w": 320,
+              "h": 352,
+              "anchorX": 518,
+              "anchorY": 360,
+              "flipX": false
+            },
+            {
+              "x": 795,
+              "y": 10,
+              "w": 226,
+              "h": 353,
+              "anchorX": 910,
+              "anchorY": 361,
+              "flipX": false
+            },
+            {
+              "x": 1112,
+              "y": 86,
+              "w": 311,
+              "h": 276,
+              "anchorX": 1175,
+              "anchorY": 360,
+              "flipX": false
+            },
+            {
+              "x": 53,
+              "y": 363,
+              "w": 187,
+              "h": 346,
+              "anchorX": 118,
+              "anchorY": 707,
+              "flipX": false
+            },
+            {
+              "x": 398,
+              "y": 367,
+              "w": 291,
+              "h": 283,
+              "anchorX": 520,
+              "anchorY": 648,
+              "flipX": false
+            },
+            {
+              "x": 767,
+              "y": 437,
+              "w": 354,
+              "h": 265,
+              "anchorX": 798,
+              "anchorY": 700,
+              "flipX": false
+            },
+            {
+              "x": 1139,
+              "y": 383,
+              "w": 259,
+              "h": 327,
+              "anchorX": 1269,
+              "anchorY": 708,
+              "flipX": false
+            },
+            {
+              "x": 71,
+              "y": 710,
+              "w": 186,
+              "h": 346,
+              "anchorX": 149,
+              "anchorY": 1054,
+              "flipX": false
+            },
+            {
+              "x": 403,
+              "y": 710,
+              "w": 254,
+              "h": 345,
+              "anchorX": 512,
+              "anchorY": 1053,
+              "flipX": false
+            },
+            {
+              "x": 753,
+              "y": 765,
+              "w": 319,
+              "h": 287,
+              "anchorX": 875,
+              "anchorY": 1050,
+              "flipX": false
+            },
+            {
+              "x": 1162,
+              "y": 710,
+              "w": 246,
+              "h": 347,
+              "anchorX": 1291,
+              "anchorY": 1055,
+              "flipX": false
+            }
+          ]
+        },
+        "reactions": {
+          "url": "fighters/cloudhop/reactions.webp",
+          "width": 1437,
+          "height": 1095,
+          "referenceHeight": 383,
+          "frames": [
+            {
+              "x": 43,
+              "y": 9,
+              "w": 252,
+              "h": 383,
+              "anchorX": 170,
+              "anchorY": 390,
+              "flipX": false
+            },
+            {
+              "x": 394,
+              "y": 72,
+              "w": 258,
+              "h": 317,
+              "anchorX": 515,
+              "anchorY": 387,
+              "flipX": false
+            },
+            {
+              "x": 733,
+              "y": 73,
+              "w": 308,
+              "h": 320,
+              "anchorX": 920,
+              "anchorY": 391,
+              "flipX": false
+            },
+            {
+              "x": 1135,
+              "y": 103,
+              "w": 249,
+              "h": 290,
+              "anchorX": 1233,
+              "anchorY": 391,
+              "flipX": false
+            },
+            {
+              "x": 13,
+              "y": 411,
+              "w": 372,
+              "h": 274,
+              "anchorX": 334,
+              "anchorY": 683,
+              "flipX": false
+            },
+            {
+              "x": 431,
+              "y": 476,
+              "w": 204,
+              "h": 214,
+              "anchorX": 548,
+              "anchorY": 688,
+              "flipX": false
+            },
+            {
+              "x": 696,
+              "y": 466,
+              "w": 327,
+              "h": 228,
+              "anchorX": 878,
+              "anchorY": 692,
+              "flipX": false
+            },
+            {
+              "x": 1036,
+              "y": 590,
+              "w": 387,
+              "h": 106,
+              "anchorX": 1269,
+              "anchorY": 694,
+              "flipX": false
+            },
+            {
+              "x": 44,
+              "y": 768,
+              "w": 299,
+              "h": 297,
+              "anchorX": 157,
+              "anchorY": 1063,
+              "flipX": false
+            },
+            {
+              "x": 445,
+              "y": 705,
+              "w": 228,
+              "h": 369,
+              "anchorX": 523,
+              "anchorY": 1072,
+              "flipX": false
+            },
+            {
+              "x": 813,
+              "y": 706,
+              "w": 176,
+              "h": 370,
+              "anchorX": 873,
+              "anchorY": 1074,
+              "flipX": false
+            },
+            {
+              "x": 1128,
+              "y": 834,
+              "w": 267,
+              "h": 231,
+              "anchorX": 1252,
+              "anchorY": 1063,
+              "flipX": false
+            }
+          ]
+        }
+      }
+    },
+    "stoneguard": {
+      "portraitUrl": "fighters/stoneguard/portrait.webp",
+      "sheets": {
+        "movement": {
+          "url": "fighters/stoneguard/movement.webp",
+          "width": 1448,
+          "height": 1086,
+          "referenceHeight": 337,
+          "frames": [
+            {
+              "x": 66,
+              "y": 21,
+              "w": 269,
+              "h": 337,
+              "anchorX": 190,
+              "anchorY": 356,
+              "flipX": false
+            },
+            {
+              "x": 397,
+              "y": 18,
+              "w": 298,
+              "h": 341,
+              "anchorX": 546,
+              "anchorY": 357,
+              "flipX": false
+            },
+            {
+              "x": 774,
+              "y": 17,
+              "w": 277,
+              "h": 342,
+              "anchorX": 934,
+              "anchorY": 357,
+              "flipX": false
+            },
+            {
+              "x": 1164,
+              "y": 18,
+              "w": 233,
+              "h": 339,
+              "anchorX": 1286,
+              "anchorY": 355,
+              "flipX": false
+            },
+            {
+              "x": 39,
+              "y": 372,
+              "w": 366,
+              "h": 308,
+              "anchorX": 346,
+              "anchorY": 678,
+              "flipX": false
+            },
+            {
+              "x": 455,
+              "y": 364,
+              "w": 271,
+              "h": 330,
+              "anchorX": 508,
+              "anchorY": 692,
+              "flipX": false
+            },
+            {
+              "x": 776,
+              "y": 376,
+              "w": 306,
+              "h": 319,
+              "anchorX": 895,
+              "anchorY": 693,
+              "flipX": false
+            },
+            {
+              "x": 1160,
+              "y": 426,
+              "w": 251,
+              "h": 269,
+              "anchorX": 1234,
+              "anchorY": 694,
+              "flipX": false
+            },
+            {
+              "x": 52,
+              "y": 773,
+              "w": 314,
+              "h": 262,
+              "anchorX": 175,
+              "anchorY": 1033,
+              "flipX": false
+            },
+            {
+              "x": 439,
+              "y": 695,
+              "w": 248,
+              "h": 295,
+              "anchorX": 520,
+              "anchorY": 988,
+              "flipX": false
+            },
+            {
+              "x": 759,
+              "y": 704,
+              "w": 296,
+              "h": 331,
+              "anchorX": 913,
+              "anchorY": 1033,
+              "flipX": false
+            },
+            {
+              "x": 1086,
+              "y": 787,
+              "w": 324,
+              "h": 253,
+              "anchorX": 1260,
+              "anchorY": 1038,
+              "flipX": false
+            }
+          ]
+        },
+        "combat": {
+          "url": "fighters/stoneguard/combat.webp",
+          "width": 1536,
+          "height": 1024,
+          "referenceHeight": 312,
+          "frames": [
+            {
+              "x": 40,
+              "y": 19,
+              "w": 301,
+              "h": 312,
+              "anchorX": 174,
+              "anchorY": 329,
+              "flipX": false
+            },
+            {
+              "x": 407,
+              "y": 17,
+              "w": 384,
+              "h": 317,
+              "anchorX": 537,
+              "anchorY": 333,
+              "flipX": false
+            },
+            {
+              "x": 801,
+              "y": 18,
+              "w": 264,
+              "h": 316,
+              "anchorX": 910,
+              "anchorY": 332,
+              "flipX": false
+            },
+            {
+              "x": 1154,
+              "y": 99,
+              "w": 369,
+              "h": 235,
+              "anchorX": 1201,
+              "anchorY": 334,
+              "flipX": false
+            },
+            {
+              "x": 68,
+              "y": 334,
+              "w": 258,
+              "h": 348,
+              "anchorX": 181,
+              "anchorY": 681,
+              "flipX": false
+            },
+            {
+              "x": 412,
+              "y": 334,
+              "w": 368,
+              "h": 256,
+              "anchorX": 577,
+              "anchorY": 588,
+              "flipX": false
+            },
+            {
+              "x": 795,
+              "y": 397,
+              "w": 360,
+              "h": 273,
+              "anchorX": 820,
+              "anchorY": 668,
+              "flipX": false
+            },
+            {
+              "x": 1176,
+              "y": 369,
+              "w": 327,
+              "h": 307,
+              "anchorX": 1315,
+              "anchorY": 674,
+              "flipX": false
+            },
+            {
+              "x": 82,
+              "y": 682,
+              "w": 235,
+              "h": 328,
+              "anchorX": 181,
+              "anchorY": 1008,
+              "flipX": false
+            },
+            {
+              "x": 406,
+              "y": 682,
+              "w": 319,
+              "h": 321,
+              "anchorX": 551,
+              "anchorY": 1001,
+              "flipX": false
+            },
+            {
+              "x": 752,
+              "y": 728,
+              "w": 403,
+              "h": 274,
+              "anchorX": 947,
+              "anchorY": 1000,
+              "flipX": false
+            },
+            {
+              "x": 1194,
+              "y": 695,
+              "w": 318,
+              "h": 312,
+              "anchorX": 1342,
+              "anchorY": 1005,
+              "flipX": false
+            }
+          ]
+        },
+        "reactions": {
+          "url": "fighters/stoneguard/reactions.webp",
+          "width": 1536,
+          "height": 1024,
+          "referenceHeight": 330,
+          "frames": [
+            {
+              "x": 81,
+              "y": 16,
+              "w": 288,
+              "h": 330,
+              "anchorX": 223,
+              "anchorY": 344,
+              "flipX": false
+            },
+            {
+              "x": 469,
+              "y": 88,
+              "w": 257,
+              "h": 261,
+              "anchorX": 580,
+              "anchorY": 347,
+              "flipX": false
+            },
+            {
+              "x": 800,
+              "y": 8,
+              "w": 323,
+              "h": 346,
+              "anchorX": 994,
+              "anchorY": 352,
+              "flipX": false
+            },
+            {
+              "x": 1200,
+              "y": 74,
+              "w": 242,
+              "h": 275,
+              "anchorX": 1306,
+              "anchorY": 347,
+              "flipX": false
+            },
+            {
+              "x": 65,
+              "y": 355,
+              "w": 349,
+              "h": 261,
+              "anchorX": 309,
+              "anchorY": 614,
+              "flipX": false
+            },
+            {
+              "x": 501,
+              "y": 453,
+              "w": 199,
+              "h": 193,
+              "anchorX": 605,
+              "anchorY": 644,
+              "flipX": false
+            },
+            {
+              "x": 750,
+              "y": 410,
+              "w": 344,
+              "h": 236,
+              "anchorX": 903,
+              "anchorY": 644,
+              "flipX": false
+            },
+            {
+              "x": 1094,
+              "y": 543,
+              "w": 421,
+              "h": 112,
+              "anchorX": 1296,
+              "anchorY": 655,
+              "flipX": false
+            },
+            {
+              "x": 62,
+              "y": 746,
+              "w": 341,
+              "h": 248,
+              "anchorX": 228,
+              "anchorY": 992,
+              "flipX": false
+            },
+            {
+              "x": 462,
+              "y": 667,
+              "w": 305,
+              "h": 333,
+              "anchorX": 584,
+              "anchorY": 998,
+              "flipX": false
+            },
+            {
+              "x": 813,
+              "y": 655,
+              "w": 260,
+              "h": 347,
+              "anchorX": 922,
+              "anchorY": 1000,
+              "flipX": false
+            },
+            {
+              "x": 1177,
+              "y": 764,
+              "w": 325,
+              "h": 235,
+              "anchorX": 1325,
+              "anchorY": 997,
+              "flipX": false
+            }
+          ]
+        }
+      }
+    },
+    "scrapclaw": {
+      "portraitUrl": "fighters/scrapclaw/portrait.webp",
+      "sheets": {
+        "movement": {
+          "url": "fighters/scrapclaw/movement.webp",
+          "width": 1536,
+          "height": 1024,
+          "referenceHeight": 350,
+          "frames": [
+            {
+              "x": 29,
+              "y": 16,
+              "w": 322,
+              "h": 350,
+              "anchorX": 215,
+              "anchorY": 364,
+              "flipX": false
+            },
+            {
+              "x": 406,
+              "y": 16,
+              "w": 311,
+              "h": 346,
+              "anchorX": 592,
+              "anchorY": 360,
+              "flipX": false
+            },
+            {
+              "x": 774,
+              "y": 17,
+              "w": 316,
+              "h": 346,
+              "anchorX": 976,
+              "anchorY": 361,
+              "flipX": false
+            },
+            {
+              "x": 1183,
+              "y": 20,
+              "w": 288,
+              "h": 337,
+              "anchorX": 1368,
+              "anchorY": 355,
+              "flipX": false
+            },
+            {
+              "x": 24,
+              "y": 372,
+              "w": 395,
+              "h": 296,
+              "anchorX": 358,
+              "anchorY": 666,
+              "flipX": false
+            },
+            {
+              "x": 425,
+              "y": 376,
+              "w": 372,
+              "h": 256,
+              "anchorX": 569,
+              "anchorY": 630,
+              "flipX": false
+            },
+            {
+              "x": 849,
+              "y": 378,
+              "w": 326,
+              "h": 284,
+              "anchorX": 1158,
+              "anchorY": 660,
+              "flipX": false
+            },
+            {
+              "x": 1175,
+              "y": 430,
+              "w": 339,
+              "h": 243,
+              "anchorX": 1385,
+              "anchorY": 672,
+              "flipX": false
+            },
+            {
+              "x": 23,
+              "y": 713,
+              "w": 362,
+              "h": 282,
+              "anchorX": 224,
+              "anchorY": 993,
+              "flipX": false
+            },
+            {
+              "x": 453,
+              "y": 673,
+              "w": 277,
+              "h": 308,
+              "anchorX": 505,
+              "anchorY": 979,
+              "flipX": false
+            },
+            {
+              "x": 782,
+              "y": 673,
+              "w": 329,
+              "h": 332,
+              "anchorX": 1061,
+              "anchorY": 1003,
+              "flipX": false
+            },
+            {
+              "x": 1174,
+              "y": 739,
+              "w": 340,
+              "h": 262,
+              "anchorX": 1328,
+              "anchorY": 999,
+              "flipX": false
+            }
+          ]
+        },
+        "combat": {
+          "url": "fighters/scrapclaw/combat.webp",
+          "width": 1448,
+          "height": 1086,
+          "referenceHeight": 306,
+          "frames": [
+            {
+              "x": 24,
+              "y": 24,
+              "w": 323,
+              "h": 306,
+              "anchorX": 210,
+              "anchorY": 328,
+              "flipX": false
+            },
+            {
+              "x": 365,
+              "y": 28,
+              "w": 347,
+              "h": 302,
+              "anchorX": 568,
+              "anchorY": 328,
+              "flipX": false
+            },
+            {
+              "x": 731,
+              "y": 29,
+              "w": 326,
+              "h": 303,
+              "anchorX": 929,
+              "anchorY": 330,
+              "flipX": false
+            },
+            {
+              "x": 1058,
+              "y": 86,
+              "w": 382,
+              "h": 250,
+              "anchorX": 1242,
+              "anchorY": 334,
+              "flipX": false
+            },
+            {
+              "x": 40,
+              "y": 349,
+              "w": 253,
+              "h": 366,
+              "anchorX": 104,
+              "anchorY": 715,
+              "flipX": false
+            },
+            {
+              "x": 336,
+              "y": 351,
+              "w": 385,
+              "h": 249,
+              "anchorX": 562,
+              "anchorY": 598,
+              "flipX": false
+            },
+            {
+              "x": 736,
+              "y": 435,
+              "w": 365,
+              "h": 272,
+              "anchorX": 835,
+              "anchorY": 705,
+              "flipX": false
+            },
+            {
+              "x": 1101,
+              "y": 434,
+              "w": 336,
+              "h": 281,
+              "anchorX": 1240,
+              "anchorY": 714,
+              "flipX": false
+            },
+            {
+              "x": 51,
+              "y": 715,
+              "w": 268,
+              "h": 348,
+              "anchorX": 151,
+              "anchorY": 1061,
+              "flipX": false
+            },
+            {
+              "x": 357,
+              "y": 715,
+              "w": 339,
+              "h": 347,
+              "anchorX": 528,
+              "anchorY": 1060,
+              "flipX": false
+            },
+            {
+              "x": 697,
+              "y": 778,
+              "w": 413,
+              "h": 279,
+              "anchorX": 884,
+              "anchorY": 1055,
+              "flipX": false
+            },
+            {
+              "x": 1113,
+              "y": 753,
+              "w": 320,
+              "h": 311,
+              "anchorX": 1298,
+              "anchorY": 1062,
+              "flipX": false
+            }
+          ]
+        },
+        "reactions": {
+          "url": "fighters/scrapclaw/reactions.webp",
+          "width": 1448,
+          "height": 1086,
+          "referenceHeight": 357,
+          "frames": [
+            {
+              "x": 30,
+              "y": 26,
+              "w": 328,
+              "h": 357,
+              "anchorX": 200,
+              "anchorY": 381,
+              "flipX": false
+            },
+            {
+              "x": 377,
+              "y": 104,
+              "w": 345,
+              "h": 276,
+              "anchorX": 510,
+              "anchorY": 378,
+              "flipX": false
+            },
+            {
+              "x": 736,
+              "y": 51,
+              "w": 344,
+              "h": 335,
+              "anchorX": 946,
+              "anchorY": 384,
+              "flipX": false
+            },
+            {
+              "x": 1083,
+              "y": 93,
+              "w": 334,
+              "h": 290,
+              "anchorX": 1284,
+              "anchorY": 381,
+              "flipX": false
+            },
+            {
+              "x": 17,
+              "y": 388,
+              "w": 381,
+              "h": 315,
+              "anchorX": 270,
+              "anchorY": 702,
+              "flipX": false
+            },
+            {
+              "x": 461,
+              "y": 462,
+              "w": 214,
+              "h": 229,
+              "anchorX": 559,
+              "anchorY": 689,
+              "flipX": false
+            },
+            {
+              "x": 718,
+              "y": 447,
+              "w": 334,
+              "h": 240,
+              "anchorX": 867,
+              "anchorY": 685,
+              "flipX": false
+            },
+            {
+              "x": 1053,
+              "y": 592,
+              "w": 382,
+              "h": 102,
+              "anchorX": 1250,
+              "anchorY": 692,
+              "flipX": false
+            },
+            {
+              "x": 35,
+              "y": 770,
+              "w": 323,
+              "h": 282,
+              "anchorX": 219,
+              "anchorY": 1050,
+              "flipX": false
+            },
+            {
+              "x": 396,
+              "y": 712,
+              "w": 305,
+              "h": 348,
+              "anchorX": 568,
+              "anchorY": 1058,
+              "flipX": false
+            },
+            {
+              "x": 739,
+              "y": 703,
+              "w": 313,
+              "h": 360,
+              "anchorX": 918,
+              "anchorY": 1061,
+              "flipX": false
+            },
+            {
+              "x": 1070,
+              "y": 832,
+              "w": 363,
+              "h": 229,
+              "anchorX": 1275,
+              "anchorY": 1059,
+              "flipX": false
+            }
+          ]
+        }
+      }
+    },
+    "stormhorn": {
+      "portraitUrl": "fighters/stormhorn/portrait.webp",
+      "sheets": {
+        "movement": {
+          "url": "fighters/stormhorn/movement.webp",
+          "width": 1448,
+          "height": 1086,
+          "referenceHeight": 357,
+          "frames": [
+            {
+              "x": 47,
+              "y": 9,
+              "w": 275,
+              "h": 357,
+              "anchorX": 178,
+              "anchorY": 364,
+              "flipX": false
+            },
+            {
+              "x": 409,
+              "y": 8,
+              "w": 278,
+              "h": 360,
+              "anchorX": 581,
+              "anchorY": 366,
+              "flipX": false
+            },
+            {
+              "x": 774,
+              "y": 8,
+              "w": 258,
+              "h": 355,
+              "anchorX": 931,
+              "anchorY": 361,
+              "flipX": false
+            },
+            {
+              "x": 1170,
+              "y": 13,
+              "w": 220,
+              "h": 351,
+              "anchorX": 1292,
+              "anchorY": 362,
+              "flipX": false
+            },
+            {
+              "x": 31,
+              "y": 371,
+              "w": 385,
+              "h": 311,
+              "anchorX": 283,
+              "anchorY": 680,
+              "flipX": false
+            },
+            {
+              "x": 454,
+              "y": 375,
+              "w": 294,
+              "h": 317,
+              "anchorX": 506,
+              "anchorY": 690,
+              "flipX": false
+            },
+            {
+              "x": 812,
+              "y": 375,
+              "w": 238,
+              "h": 320,
+              "anchorX": 1018,
+              "anchorY": 695,
+              "flipX": false
+            },
+            {
+              "x": 1147,
+              "y": 451,
+              "w": 276,
+              "h": 237,
+              "anchorX": 1272,
+              "anchorY": 686,
+              "flipX": false
+            },
+            {
+              "x": 40,
+              "y": 785,
+              "w": 317,
+              "h": 252,
+              "anchorX": 181,
+              "anchorY": 1035,
+              "flipX": false
+            },
+            {
+              "x": 460,
+              "y": 695,
+              "w": 229,
+              "h": 278,
+              "anchorX": 537,
+              "anchorY": 971,
+              "flipX": false
+            },
+            {
+              "x": 748,
+              "y": 695,
+              "w": 339,
+              "h": 369,
+              "anchorX": 940,
+              "anchorY": 1062,
+              "flipX": false
+            },
+            {
+              "x": 1124,
+              "y": 771,
+              "w": 322,
+              "h": 279,
+              "anchorX": 1248,
+              "anchorY": 1048,
+              "flipX": false
+            }
+          ]
+        },
+        "combat": {
+          "url": "fighters/stormhorn/combat.webp",
+          "width": 1536,
+          "height": 1024,
+          "referenceHeight": 323,
+          "frames": [
+            {
+              "x": 25,
+              "y": 7,
+              "w": 294,
+              "h": 323,
+              "anchorX": 166,
+              "anchorY": 328,
+              "flipX": false
+            },
+            {
+              "x": 402,
+              "y": 12,
+              "w": 386,
+              "h": 317,
+              "anchorX": 558,
+              "anchorY": 327,
+              "flipX": false
+            },
+            {
+              "x": 804,
+              "y": 7,
+              "w": 271,
+              "h": 327,
+              "anchorX": 932,
+              "anchorY": 333,
+              "flipX": false
+            },
+            {
+              "x": 1174,
+              "y": 79,
+              "w": 357,
+              "h": 254,
+              "anchorX": 1220,
+              "anchorY": 331,
+              "flipX": false
+            },
+            {
+              "x": 35,
+              "y": 334,
+              "w": 286,
+              "h": 340,
+              "anchorX": 193,
+              "anchorY": 672,
+              "flipX": false
+            },
+            {
+              "x": 406,
+              "y": 335,
+              "w": 354,
+              "h": 265,
+              "anchorX": 587,
+              "anchorY": 598,
+              "flipX": false
+            },
+            {
+              "x": 761,
+              "y": 395,
+              "w": 349,
+              "h": 279,
+              "anchorX": 980,
+              "anchorY": 672,
+              "flipX": false
+            },
+            {
+              "x": 1152,
+              "y": 368,
+              "w": 337,
+              "h": 306,
+              "anchorX": 1339,
+              "anchorY": 672,
+              "flipX": false
+            },
+            {
+              "x": 79,
+              "y": 674,
+              "w": 209,
+              "h": 337,
+              "anchorX": 166,
+              "anchorY": 1009,
+              "flipX": false
+            },
+            {
+              "x": 396,
+              "y": 674,
+              "w": 310,
+              "h": 333,
+              "anchorX": 558,
+              "anchorY": 1005,
+              "flipX": false
+            },
+            {
+              "x": 752,
+              "y": 725,
+              "w": 400,
+              "h": 281,
+              "anchorX": 959,
+              "anchorY": 1004,
+              "flipX": false
+            },
+            {
+              "x": 1204,
+              "y": 686,
+              "w": 276,
+              "h": 324,
+              "anchorX": 1347,
+              "anchorY": 1008,
+              "flipX": false
+            }
+          ]
+        },
+        "reactions": {
+          "url": "fighters/stormhorn/reactions.webp",
+          "width": 1536,
+          "height": 1024,
+          "referenceHeight": 358,
+          "frames": [
+            {
+              "x": 47,
+              "y": 7,
+              "w": 304,
+              "h": 358,
+              "anchorX": 126,
+              "anchorY": 363,
+              "flipX": false
+            },
+            {
+              "x": 437,
+              "y": 65,
+              "w": 302,
+              "h": 291,
+              "anchorX": 574,
+              "anchorY": 354,
+              "flipX": false
+            },
+            {
+              "x": 763,
+              "y": 18,
+              "w": 339,
+              "h": 341,
+              "anchorX": 966,
+              "anchorY": 357,
+              "flipX": false
+            },
+            {
+              "x": 1197,
+              "y": 71,
+              "w": 278,
+              "h": 290,
+              "anchorX": 1286,
+              "anchorY": 359,
+              "flipX": false
+            },
+            {
+              "x": 27,
+              "y": 369,
+              "w": 413,
+              "h": 271,
+              "anchorX": 352,
+              "anchorY": 638,
+              "flipX": false
+            },
+            {
+              "x": 507,
+              "y": 427,
+              "w": 194,
+              "h": 208,
+              "anchorX": 576,
+              "anchorY": 633,
+              "flipX": false
+            },
+            {
+              "x": 749,
+              "y": 420,
+              "w": 372,
+              "h": 215,
+              "anchorX": 934,
+              "anchorY": 633,
+              "flipX": false
+            },
+            {
+              "x": 1133,
+              "y": 532,
+              "w": 385,
+              "h": 109,
+              "anchorX": 1296,
+              "anchorY": 640,
+              "flipX": false
+            },
+            {
+              "x": 45,
+              "y": 717,
+              "w": 320,
+              "h": 279,
+              "anchorX": 182,
+              "anchorY": 994,
+              "flipX": false
+            },
+            {
+              "x": 461,
+              "y": 645,
+              "w": 283,
+              "h": 355,
+              "anchorX": 558,
+              "anchorY": 998,
+              "flipX": false
+            },
+            {
+              "x": 831,
+              "y": 641,
+              "w": 252,
+              "h": 357,
+              "anchorX": 952,
+              "anchorY": 996,
+              "flipX": false
+            },
+            {
+              "x": 1197,
+              "y": 753,
+              "w": 291,
+              "h": 241,
+              "anchorX": 1384,
+              "anchorY": 992,
+              "flipX": false
+            }
+          ]
+        }
+      }
+    },
+    "mossbite": {
+      "portraitUrl": "fighters/mossbite/portrait.webp",
+      "sheets": {
+        "movement": {
+          "url": "fighters/mossbite/movement.webp",
+          "width": 1448,
+          "height": 1086,
+          "referenceHeight": 347,
+          "frames": [
+            {
+              "x": 35,
+              "y": 22,
+              "w": 302,
+              "h": 347,
+              "anchorX": 202,
+              "anchorY": 367,
+              "flipX": false
+            },
+            {
+              "x": 403,
+              "y": 25,
+              "w": 318,
+              "h": 343,
+              "anchorX": 590,
+              "anchorY": 366,
+              "flipX": false
+            },
+            {
+              "x": 763,
+              "y": 23,
+              "w": 296,
+              "h": 347,
+              "anchorX": 919,
+              "anchorY": 368,
+              "flipX": false
+            },
+            {
+              "x": 1129,
+              "y": 23,
+              "w": 280,
+              "h": 345,
+              "anchorX": 1299,
+              "anchorY": 366,
+              "flipX": false
+            },
+            {
+              "x": 29,
+              "y": 390,
+              "w": 353,
+              "h": 287,
+              "anchorX": 298,
+              "anchorY": 675,
+              "flipX": false
+            },
+            {
+              "x": 382,
+              "y": 386,
+              "w": 356,
+              "h": 299,
+              "anchorX": 482,
+              "anchorY": 683,
+              "flipX": false
+            },
+            {
+              "x": 779,
+              "y": 381,
+              "w": 287,
+              "h": 310,
+              "anchorX": 852,
+              "anchorY": 689,
+              "flipX": true
+            },
+            {
+              "x": 1126,
+              "y": 451,
+              "w": 290,
+              "h": 244,
+              "anchorX": 1287,
+              "anchorY": 693,
+              "flipX": false
+            },
+            {
+              "x": 36,
+              "y": 790,
+              "w": 296,
+              "h": 253,
+              "anchorX": 205,
+              "anchorY": 1041,
+              "flipX": false
+            },
+            {
+              "x": 422,
+              "y": 700,
+              "w": 257,
+              "h": 300,
+              "anchorX": 618,
+              "anchorY": 998,
+              "flipX": false
+            },
+            {
+              "x": 757,
+              "y": 704,
+              "w": 310,
+              "h": 334,
+              "anchorX": 1012,
+              "anchorY": 1036,
+              "flipX": false
+            },
+            {
+              "x": 1108,
+              "y": 792,
+              "w": 319,
+              "h": 255,
+              "anchorX": 1269,
+              "anchorY": 1045,
+              "flipX": false
+            }
+          ]
+        },
+        "combat": {
+          "url": "fighters/mossbite/combat.webp",
+          "width": 1536,
+          "height": 1024,
+          "referenceHeight": 304,
+          "frames": [
+            {
+              "x": 32,
+              "y": 30,
+              "w": 350,
+              "h": 304,
+              "anchorX": 199,
+              "anchorY": 332,
+              "flipX": false
+            },
+            {
+              "x": 412,
+              "y": 23,
+              "w": 372,
+              "h": 311,
+              "anchorX": 565,
+              "anchorY": 332,
+              "flipX": false
+            },
+            {
+              "x": 806,
+              "y": 23,
+              "w": 290,
+              "h": 313,
+              "anchorX": 962,
+              "anchorY": 334,
+              "flipX": false
+            },
+            {
+              "x": 1164,
+              "y": 104,
+              "w": 353,
+              "h": 235,
+              "anchorX": 1270,
+              "anchorY": 337,
+              "flipX": false
+            },
+            {
+              "x": 56,
+              "y": 345,
+              "w": 263,
+              "h": 339,
+              "anchorX": 205,
+              "anchorY": 683,
+              "flipX": false
+            },
+            {
+              "x": 394,
+              "y": 356,
+              "w": 367,
+              "h": 234,
+              "anchorX": 533,
+              "anchorY": 588,
+              "flipX": false
+            },
+            {
+              "x": 782,
+              "y": 414,
+              "w": 337,
+              "h": 259,
+              "anchorX": 871,
+              "anchorY": 671,
+              "flipX": false
+            },
+            {
+              "x": 1154,
+              "y": 396,
+              "w": 341,
+              "h": 284,
+              "anchorX": 1320,
+              "anchorY": 678,
+              "flipX": false
+            },
+            {
+              "x": 59,
+              "y": 684,
+              "w": 253,
+              "h": 322,
+              "anchorX": 183,
+              "anchorY": 1004,
+              "flipX": false
+            },
+            {
+              "x": 391,
+              "y": 684,
+              "w": 321,
+              "h": 311,
+              "anchorX": 555,
+              "anchorY": 993,
+              "flipX": false
+            },
+            {
+              "x": 752,
+              "y": 734,
+              "w": 406,
+              "h": 258,
+              "anchorX": 933,
+              "anchorY": 990,
+              "flipX": false
+            },
+            {
+              "x": 1207,
+              "y": 708,
+              "w": 295,
+              "h": 290,
+              "anchorX": 1349,
+              "anchorY": 996,
+              "flipX": false
+            }
+          ]
+        },
+        "reactions": {
+          "url": "fighters/mossbite/reactions.webp",
+          "width": 1536,
+          "height": 1024,
+          "referenceHeight": 331,
+          "frames": [
+            {
+              "x": 53,
+              "y": 27,
+              "w": 318,
+              "h": 331,
+              "anchorX": 224,
+              "anchorY": 356,
+              "flipX": false
+            },
+            {
+              "x": 420,
+              "y": 95,
+              "w": 319,
+              "h": 266,
+              "anchorX": 563,
+              "anchorY": 359,
+              "flipX": false
+            },
+            {
+              "x": 790,
+              "y": 39,
+              "w": 348,
+              "h": 324,
+              "anchorX": 998,
+              "anchorY": 361,
+              "flipX": false
+            },
+            {
+              "x": 1183,
+              "y": 71,
+              "w": 298,
+              "h": 289,
+              "anchorX": 1317,
+              "anchorY": 358,
+              "flipX": false
+            },
+            {
+              "x": 14,
+              "y": 384,
+              "w": 377,
+              "h": 242,
+              "anchorX": 218,
+              "anchorY": 624,
+              "flipX": false
+            },
+            {
+              "x": 472,
+              "y": 435,
+              "w": 239,
+              "h": 210,
+              "anchorX": 595,
+              "anchorY": 643,
+              "flipX": false
+            },
+            {
+              "x": 762,
+              "y": 429,
+              "w": 360,
+              "h": 224,
+              "anchorX": 988,
+              "anchorY": 651,
+              "flipX": false
+            },
+            {
+              "x": 1165,
+              "y": 540,
+              "w": 363,
+              "h": 116,
+              "anchorX": 1334,
+              "anchorY": 654,
+              "flipX": false
+            },
+            {
+              "x": 43,
+              "y": 734,
+              "w": 321,
+              "h": 251,
+              "anchorX": 244,
+              "anchorY": 983,
+              "flipX": false
+            },
+            {
+              "x": 441,
+              "y": 667,
+              "w": 267,
+              "h": 328,
+              "anchorX": 596,
+              "anchorY": 993,
+              "flipX": false
+            },
+            {
+              "x": 823,
+              "y": 667,
+              "w": 275,
+              "h": 332,
+              "anchorX": 966,
+              "anchorY": 997,
+              "flipX": false
+            },
+            {
+              "x": 1168,
+              "y": 757,
+              "w": 337,
+              "h": 237,
+              "anchorX": 1341,
+              "anchorY": 992,
+              "flipX": false
+            }
+          ]
+        }
+      }
+    },
+    "pebblepop": {
+      "portraitUrl": "fighters/pebblepop/portrait.webp",
+      "sheets": {
+        "movement": {
+          "url": "fighters/pebblepop/movement.webp",
+          "width": 1448,
+          "height": 1086,
+          "referenceHeight": 361,
+          "frames": [
+            {
+              "x": 45,
+              "y": 8,
+              "w": 281,
+              "h": 361,
+              "anchorX": 181,
+              "anchorY": 367,
+              "flipX": false
+            },
+            {
+              "x": 415,
+              "y": 6,
+              "w": 287,
+              "h": 364,
+              "anchorX": 545,
+              "anchorY": 368,
+              "flipX": false
+            },
+            {
+              "x": 791,
+              "y": 9,
+              "w": 259,
+              "h": 361,
+              "anchorX": 937,
+              "anchorY": 368,
+              "flipX": false
+            },
+            {
+              "x": 1143,
+              "y": 15,
+              "w": 243,
+              "h": 355,
+              "anchorX": 1310,
+              "anchorY": 368,
+              "flipX": false
+            },
+            {
+              "x": 45,
+              "y": 373,
+              "w": 362,
+              "h": 340,
+              "anchorX": 332,
+              "anchorY": 711,
+              "flipX": false
+            },
+            {
+              "x": 456,
+              "y": 376,
+              "w": 302,
+              "h": 328,
+              "anchorX": 577,
+              "anchorY": 702,
+              "flipX": false
+            },
+            {
+              "x": 888,
+              "y": 373,
+              "w": 206,
+              "h": 342,
+              "anchorX": 995,
+              "anchorY": 715,
+              "flipX": false
+            },
+            {
+              "x": 1161,
+              "y": 424,
+              "w": 251,
+              "h": 291,
+              "anchorX": 1276,
+              "anchorY": 714,
+              "flipX": false
+            },
+            {
+              "x": 45,
+              "y": 777,
+              "w": 280,
+              "h": 288,
+              "anchorX": 180,
+              "anchorY": 1063,
+              "flipX": false
+            },
+            {
+              "x": 441,
+              "y": 715,
+              "w": 224,
+              "h": 304,
+              "anchorX": 565,
+              "anchorY": 1017,
+              "flipX": false
+            },
+            {
+              "x": 735,
+              "y": 715,
+              "w": 290,
+              "h": 343,
+              "anchorX": 938,
+              "anchorY": 1056,
+              "flipX": false
+            },
+            {
+              "x": 1093,
+              "y": 757,
+              "w": 325,
+              "h": 308,
+              "anchorX": 1247,
+              "anchorY": 1063,
+              "flipX": false
+            }
+          ]
+        },
+        "combat": {
+          "url": "fighters/pebblepop/combat.webp",
+          "width": 1536,
+          "height": 1024,
+          "referenceHeight": 341,
+          "frames": [
+            {
+              "x": 58,
+              "y": 12,
+              "w": 324,
+              "h": 341,
+              "anchorX": 237,
+              "anchorY": 351,
+              "flipX": false
+            },
+            {
+              "x": 419,
+              "y": 16,
+              "w": 373,
+              "h": 335,
+              "anchorX": 587,
+              "anchorY": 349,
+              "flipX": false
+            },
+            {
+              "x": 811,
+              "y": 12,
+              "w": 296,
+              "h": 344,
+              "anchorX": 963,
+              "anchorY": 354,
+              "flipX": false
+            },
+            {
+              "x": 1137,
+              "y": 92,
+              "w": 384,
+              "h": 264,
+              "anchorX": 1262,
+              "anchorY": 355,
+              "flipX": false
+            },
+            {
+              "x": 66,
+              "y": 356,
+              "w": 259,
+              "h": 328,
+              "anchorX": 151,
+              "anchorY": 682,
+              "flipX": false
+            },
+            {
+              "x": 386,
+              "y": 356,
+              "w": 369,
+              "h": 268,
+              "anchorX": 525,
+              "anchorY": 622,
+              "flipX": false
+            },
+            {
+              "x": 780,
+              "y": 403,
+              "w": 368,
+              "h": 277,
+              "anchorX": 814,
+              "anchorY": 678,
+              "flipX": false
+            },
+            {
+              "x": 1180,
+              "y": 386,
+              "w": 292,
+              "h": 299,
+              "anchorX": 1302,
+              "anchorY": 684,
+              "flipX": false
+            },
+            {
+              "x": 99,
+              "y": 685,
+              "w": 216,
+              "h": 322,
+              "anchorX": 189,
+              "anchorY": 1005,
+              "flipX": false
+            },
+            {
+              "x": 397,
+              "y": 685,
+              "w": 328,
+              "h": 318,
+              "anchorX": 574,
+              "anchorY": 1001,
+              "flipX": false
+            },
+            {
+              "x": 769,
+              "y": 708,
+              "w": 356,
+              "h": 295,
+              "anchorX": 947,
+              "anchorY": 1001,
+              "flipX": false
+            },
+            {
+              "x": 1187,
+              "y": 699,
+              "w": 304,
+              "h": 305,
+              "anchorX": 1337,
+              "anchorY": 1002,
+              "flipX": false
+            }
+          ]
+        },
+        "reactions": {
+          "url": "fighters/pebblepop/reactions.webp",
+          "width": 1536,
+          "height": 1024,
+          "referenceHeight": 369,
+          "frames": [
+            {
+              "x": 35,
+              "y": 18,
+              "w": 318,
+              "h": 369,
+              "anchorX": 198,
+              "anchorY": 385,
+              "flipX": false
+            },
+            {
+              "x": 434,
+              "y": 92,
+              "w": 303,
+              "h": 294,
+              "anchorX": 590,
+              "anchorY": 384,
+              "flipX": false
+            },
+            {
+              "x": 767,
+              "y": 17,
+              "w": 359,
+              "h": 372,
+              "anchorX": 977,
+              "anchorY": 387,
+              "flipX": false
+            },
+            {
+              "x": 1214,
+              "y": 51,
+              "w": 258,
+              "h": 339,
+              "anchorX": 1343,
+              "anchorY": 388,
+              "flipX": false
+            },
+            {
+              "x": 58,
+              "y": 393,
+              "w": 364,
+              "h": 284,
+              "anchorX": 121,
+              "anchorY": 677,
+              "flipX": true
+            },
+            {
+              "x": 466,
+              "y": 457,
+              "w": 236,
+              "h": 209,
+              "anchorX": 586,
+              "anchorY": 664,
+              "flipX": false
+            },
+            {
+              "x": 781,
+              "y": 420,
+              "w": 348,
+              "h": 257,
+              "anchorX": 931,
+              "anchorY": 675,
+              "flipX": true
+            },
+            {
+              "x": 1138,
+              "y": 544,
+              "w": 374,
+              "h": 130,
+              "anchorX": 1296,
+              "anchorY": 672,
+              "flipX": false
+            },
+            {
+              "x": 45,
+              "y": 693,
+              "w": 309,
+              "h": 314,
+              "anchorX": 167,
+              "anchorY": 1005,
+              "flipX": false
+            },
+            {
+              "x": 454,
+              "y": 677,
+              "w": 283,
+              "h": 334,
+              "anchorX": 572,
+              "anchorY": 1009,
+              "flipX": false
+            },
+            {
+              "x": 796,
+              "y": 677,
+              "w": 289,
+              "h": 334,
+              "anchorX": 976,
+              "anchorY": 1009,
+              "flipX": false
+            },
+            {
+              "x": 1196,
+              "y": 736,
+              "w": 304,
+              "h": 271,
+              "anchorX": 1300,
+              "anchorY": 1005,
+              "flipX": false
+            }
+          ]
+        }
+      }
+    },
+    "puffvolt": {
+      "portraitUrl": "fighters/puffvolt/portrait.webp",
+      "sheets": {
+        "movement": {
+          "url": "fighters/puffvolt/movement.webp",
+          "width": 1536,
+          "height": 1024,
+          "referenceHeight": 346,
+          "frames": [
+            {
+              "x": 41,
+              "y": 9,
+              "w": 316,
+              "h": 346,
+              "anchorX": 229,
+              "anchorY": 353,
+              "flipX": false
+            },
+            {
+              "x": 433,
+              "y": 9,
+              "w": 321,
+              "h": 345,
+              "anchorX": 643,
+              "anchorY": 352,
+              "flipX": false
+            },
+            {
+              "x": 815,
+              "y": 9,
+              "w": 309,
+              "h": 346,
+              "anchorX": 1007,
+              "anchorY": 353,
+              "flipX": false
+            },
+            {
+              "x": 1209,
+              "y": 13,
+              "w": 309,
+              "h": 341,
+              "anchorX": 1424,
+              "anchorY": 352,
+              "flipX": false
+            },
+            {
+              "x": 22,
+              "y": 363,
+              "w": 399,
+              "h": 300,
+              "anchorX": 358,
+              "anchorY": 661,
+              "flipX": false
+            },
+            {
+              "x": 428,
+              "y": 370,
+              "w": 355,
+              "h": 296,
+              "anchorX": 562,
+              "anchorY": 664,
+              "flipX": false
+            },
+            {
+              "x": 816,
+              "y": 367,
+              "w": 322,
+              "h": 304,
+              "anchorX": 972,
+              "anchorY": 670,
+              "flipX": true
+            },
+            {
+              "x": 1191,
+              "y": 410,
+              "w": 324,
+              "h": 257,
+              "anchorX": 1418,
+              "anchorY": 665,
+              "flipX": false
+            },
+            {
+              "x": 23,
+              "y": 737,
+              "w": 379,
+              "h": 257,
+              "anchorX": 261,
+              "anchorY": 992,
+              "flipX": false
+            },
+            {
+              "x": 453,
+              "y": 671,
+              "w": 272,
+              "h": 295,
+              "anchorX": 635,
+              "anchorY": 964,
+              "flipX": false
+            },
+            {
+              "x": 810,
+              "y": 685,
+              "w": 319,
+              "h": 310,
+              "anchorX": 1043,
+              "anchorY": 993,
+              "flipX": false
+            },
+            {
+              "x": 1197,
+              "y": 706,
+              "w": 335,
+              "h": 299,
+              "anchorX": 1375,
+              "anchorY": 1003,
+              "flipX": false
+            }
+          ]
+        },
+        "combat": {
+          "url": "fighters/puffvolt/combat.webp",
+          "width": 1448,
+          "height": 1086,
+          "referenceHeight": 346,
+          "frames": [
+            {
+              "x": 10,
+              "y": 5,
+              "w": 320,
+              "h": 346,
+              "anchorX": 182,
+              "anchorY": 350,
+              "flipX": false
+            },
+            {
+              "x": 375,
+              "y": 5,
+              "w": 359,
+              "h": 346,
+              "anchorX": 548,
+              "anchorY": 349,
+              "flipX": false
+            },
+            {
+              "x": 752,
+              "y": 5,
+              "w": 305,
+              "h": 346,
+              "anchorX": 915,
+              "anchorY": 350,
+              "flipX": false
+            },
+            {
+              "x": 1067,
+              "y": 81,
+              "w": 373,
+              "h": 270,
+              "anchorX": 1207,
+              "anchorY": 349,
+              "flipX": false
+            },
+            {
+              "x": 15,
+              "y": 356,
+              "w": 281,
+              "h": 355,
+              "anchorX": 152,
+              "anchorY": 709,
+              "flipX": false
+            },
+            {
+              "x": 357,
+              "y": 351,
+              "w": 360,
+              "h": 315,
+              "anchorX": 689,
+              "anchorY": 664,
+              "flipX": false
+            },
+            {
+              "x": 731,
+              "y": 410,
+              "w": 357,
+              "h": 300,
+              "anchorX": 798,
+              "anchorY": 708,
+              "flipX": false
+            },
+            {
+              "x": 1095,
+              "y": 409,
+              "w": 341,
+              "h": 292,
+              "anchorX": 1281,
+              "anchorY": 699,
+              "flipX": false
+            },
+            {
+              "x": 9,
+              "y": 715,
+              "w": 271,
+              "h": 365,
+              "anchorX": 185,
+              "anchorY": 1078,
+              "flipX": false
+            },
+            {
+              "x": 351,
+              "y": 711,
+              "w": 326,
+              "h": 355,
+              "anchorX": 516,
+              "anchorY": 1064,
+              "flipX": false
+            },
+            {
+              "x": 709,
+              "y": 753,
+              "w": 382,
+              "h": 314,
+              "anchorX": 910,
+              "anchorY": 1065,
+              "flipX": false
+            },
+            {
+              "x": 1128,
+              "y": 740,
+              "w": 304,
+              "h": 329,
+              "anchorX": 1284,
+              "anchorY": 1067,
+              "flipX": false
+            }
+          ]
+        },
+        "reactions": {
+          "url": "fighters/puffvolt/reactions.webp",
+          "width": 1448,
+          "height": 1086,
+          "referenceHeight": 377,
+          "frames": [
+            {
+              "x": 21,
+              "y": 12,
+              "w": 299,
+              "h": 377,
+              "anchorX": 193,
+              "anchorY": 387,
+              "flipX": false
+            },
+            {
+              "x": 373,
+              "y": 92,
+              "w": 314,
+              "h": 297,
+              "anchorX": 508,
+              "anchorY": 387,
+              "flipX": false
+            },
+            {
+              "x": 756,
+              "y": 23,
+              "w": 361,
+              "h": 367,
+              "anchorX": 956,
+              "anchorY": 388,
+              "flipX": false
+            },
+            {
+              "x": 1120,
+              "y": 58,
+              "w": 300,
+              "h": 332,
+              "anchorX": 1283,
+              "anchorY": 388,
+              "flipX": false
+            },
+            {
+              "x": 26,
+              "y": 394,
+              "w": 357,
+              "h": 307,
+              "anchorX": 135,
+              "anchorY": 701,
+              "flipX": false
+            },
+            {
+              "x": 446,
+              "y": 418,
+              "w": 243,
+              "h": 264,
+              "anchorX": 569,
+              "anchorY": 680,
+              "flipX": false
+            },
+            {
+              "x": 712,
+              "y": 468,
+              "w": 337,
+              "h": 219,
+              "anchorX": 952,
+              "anchorY": 685,
+              "flipX": false
+            },
+            {
+              "x": 1071,
+              "y": 569,
+              "w": 367,
+              "h": 119,
+              "anchorX": 1236,
+              "anchorY": 686,
+              "flipX": false
+            },
+            {
+              "x": 14,
+              "y": 764,
+              "w": 328,
+              "h": 304,
+              "anchorX": 194,
+              "anchorY": 1066,
+              "flipX": false
+            },
+            {
+              "x": 396,
+              "y": 701,
+              "w": 315,
+              "h": 367,
+              "anchorX": 555,
+              "anchorY": 1066,
+              "flipX": false
+            },
+            {
+              "x": 754,
+              "y": 701,
+              "w": 294,
+              "h": 369,
+              "anchorX": 902,
+              "anchorY": 1068,
+              "flipX": false
+            },
+            {
+              "x": 1085,
+              "y": 792,
+              "w": 354,
+              "h": 269,
+              "anchorX": 1270,
+              "anchorY": 1059,
+              "flipX": false
+            }
+          ]
+        }
+      }
+    },
+    "cinderveil": {
+      "portraitUrl": "fighters/cinderveil/portrait.webp",
+      "sheets": {
+        "movement": {
+          "url": "fighters/cinderveil/movement.webp",
+          "width": 1448,
+          "height": 1086,
+          "referenceHeight": 357,
+          "frames": [
+            {
+              "x": 64,
+              "y": 15,
+              "w": 273,
+              "h": 357,
+              "anchorX": 214,
+              "anchorY": 370,
+              "flipX": false
+            },
+            {
+              "x": 429,
+              "y": 11,
+              "w": 269,
+              "h": 360,
+              "anchorX": 559,
+              "anchorY": 369,
+              "flipX": false
+            },
+            {
+              "x": 818,
+              "y": 12,
+              "w": 226,
+              "h": 364,
+              "anchorX": 942,
+              "anchorY": 374,
+              "flipX": false
+            },
+            {
+              "x": 1179,
+              "y": 30,
+              "w": 238,
+              "h": 343,
+              "anchorX": 1321,
+              "anchorY": 371,
+              "flipX": false
+            },
+            {
+              "x": 32,
+              "y": 398,
+              "w": 359,
+              "h": 311,
+              "anchorX": 165,
+              "anchorY": 707,
+              "flipX": false
+            },
+            {
+              "x": 451,
+              "y": 387,
+              "w": 270,
+              "h": 322,
+              "anchorX": 487,
+              "anchorY": 707,
+              "flipX": false
+            },
+            {
+              "x": 882,
+              "y": 386,
+              "w": 234,
+              "h": 323,
+              "anchorX": 1054,
+              "anchorY": 707,
+              "flipX": false
+            },
+            {
+              "x": 1179,
+              "y": 455,
+              "w": 230,
+              "h": 254,
+              "anchorX": 1276,
+              "anchorY": 709,
+              "flipX": false
+            },
+            {
+              "x": 48,
+              "y": 807,
+              "w": 244,
+              "h": 251,
+              "anchorX": 170,
+              "anchorY": 1056,
+              "flipX": false
+            },
+            {
+              "x": 474,
+              "y": 709,
+              "w": 202,
+              "h": 287,
+              "anchorX": 559,
+              "anchorY": 994,
+              "flipX": false
+            },
+            {
+              "x": 772,
+              "y": 722,
+              "w": 325,
+              "h": 333,
+              "anchorX": 942,
+              "anchorY": 1053,
+              "flipX": false
+            },
+            {
+              "x": 1160,
+              "y": 781,
+              "w": 264,
+              "h": 287,
+              "anchorX": 1203,
+              "anchorY": 1066,
+              "flipX": false
+            }
+          ]
+        },
+        "combat": {
+          "url": "fighters/cinderveil/combat.webp",
+          "width": 1536,
+          "height": 1024,
+          "referenceHeight": 322,
+          "frames": [
+            {
+              "x": 57,
+              "y": 21,
+              "w": 301,
+              "h": 322,
+              "anchorX": 212,
+              "anchorY": 341,
+              "flipX": false
+            },
+            {
+              "x": 428,
+              "y": 23,
+              "w": 291,
+              "h": 319,
+              "anchorX": 550,
+              "anchorY": 340,
+              "flipX": false
+            },
+            {
+              "x": 779,
+              "y": 20,
+              "w": 289,
+              "h": 322,
+              "anchorX": 936,
+              "anchorY": 340,
+              "flipX": false
+            },
+            {
+              "x": 1139,
+              "y": 102,
+              "w": 367,
+              "h": 232,
+              "anchorX": 1262,
+              "anchorY": 332,
+              "flipX": false
+            },
+            {
+              "x": 66,
+              "y": 349,
+              "w": 206,
+              "h": 324,
+              "anchorX": 132,
+              "anchorY": 673,
+              "flipX": false
+            },
+            {
+              "x": 436,
+              "y": 350,
+              "w": 276,
+              "h": 244,
+              "anchorX": 580,
+              "anchorY": 592,
+              "flipX": false
+            },
+            {
+              "x": 712,
+              "y": 414,
+              "w": 436,
+              "h": 251,
+              "anchorX": 840,
+              "anchorY": 663,
+              "flipX": false
+            },
+            {
+              "x": 1161,
+              "y": 385,
+              "w": 312,
+              "h": 287,
+              "anchorX": 1342,
+              "anchorY": 670,
+              "flipX": false
+            },
+            {
+              "x": 98,
+              "y": 673,
+              "w": 187,
+              "h": 337,
+              "anchorX": 198,
+              "anchorY": 1008,
+              "flipX": false
+            },
+            {
+              "x": 386,
+              "y": 673,
+              "w": 329,
+              "h": 324,
+              "anchorX": 560,
+              "anchorY": 995,
+              "flipX": false
+            },
+            {
+              "x": 762,
+              "y": 721,
+              "w": 335,
+              "h": 273,
+              "anchorX": 957,
+              "anchorY": 992,
+              "flipX": false
+            },
+            {
+              "x": 1165,
+              "y": 690,
+              "w": 310,
+              "h": 311,
+              "anchorX": 1337,
+              "anchorY": 999,
+              "flipX": false
+            }
+          ]
+        },
+        "reactions": {
+          "url": "fighters/cinderveil/reactions.webp",
+          "width": 1448,
+          "height": 1086,
+          "referenceHeight": 379,
+          "frames": [
+            {
+              "x": 46,
+              "y": 14,
+              "w": 299,
+              "h": 379,
+              "anchorX": 204,
+              "anchorY": 391,
+              "flipX": false
+            },
+            {
+              "x": 425,
+              "y": 94,
+              "w": 267,
+              "h": 297,
+              "anchorX": 628,
+              "anchorY": 389,
+              "flipX": false
+            },
+            {
+              "x": 752,
+              "y": 22,
+              "w": 302,
+              "h": 372,
+              "anchorX": 931,
+              "anchorY": 392,
+              "flipX": false
+            },
+            {
+              "x": 1147,
+              "y": 68,
+              "w": 243,
+              "h": 328,
+              "anchorX": 1260,
+              "anchorY": 394,
+              "flipX": false
+            },
+            {
+              "x": 26,
+              "y": 412,
+              "w": 373,
+              "h": 284,
+              "anchorX": 194,
+              "anchorY": 694,
+              "flipX": false
+            },
+            {
+              "x": 452,
+              "y": 529,
+              "w": 183,
+              "h": 174,
+              "anchorX": 554,
+              "anchorY": 701,
+              "flipX": false
+            },
+            {
+              "x": 710,
+              "y": 488,
+              "w": 354,
+              "h": 213,
+              "anchorX": 887,
+              "anchorY": 699,
+              "flipX": false
+            },
+            {
+              "x": 1064,
+              "y": 628,
+              "w": 368,
+              "h": 77,
+              "anchorX": 1241,
+              "anchorY": 703,
+              "flipX": false
+            },
+            {
+              "x": 83,
+              "y": 822,
+              "w": 225,
+              "h": 251,
+              "anchorX": 156,
+              "anchorY": 1071,
+              "flipX": false
+            },
+            {
+              "x": 447,
+              "y": 716,
+              "w": 209,
+              "h": 351,
+              "anchorX": 563,
+              "anchorY": 1065,
+              "flipX": false
+            },
+            {
+              "x": 767,
+              "y": 709,
+              "w": 248,
+              "h": 361,
+              "anchorX": 895,
+              "anchorY": 1068,
+              "flipX": false
+            },
+            {
+              "x": 1125,
+              "y": 856,
+              "w": 280,
+              "h": 206,
+              "anchorX": 1267,
+              "anchorY": 1060,
+              "flipX": false
+            }
+          ]
+        }
+      }
+    },
+    "tideknuckle": {
+      "portraitUrl": "fighters/tideknuckle/portrait.webp",
+      "sheets": {
+        "movement": {
+          "url": "fighters/tideknuckle/movement.webp",
+          "width": 1448,
+          "height": 1086,
+          "referenceHeight": 362,
+          "frames": [
+            {
+              "x": 37,
+              "y": 20,
+              "w": 289,
+              "h": 362,
+              "anchorX": 202,
+              "anchorY": 380,
+              "flipX": false
+            },
+            {
+              "x": 408,
+              "y": 19,
+              "w": 305,
+              "h": 360,
+              "anchorX": 589,
+              "anchorY": 377,
+              "flipX": false
+            },
+            {
+              "x": 775,
+              "y": 21,
+              "w": 263,
+              "h": 363,
+              "anchorX": 931,
+              "anchorY": 382,
+              "flipX": false
+            },
+            {
+              "x": 1148,
+              "y": 36,
+              "w": 269,
+              "h": 348,
+              "anchorX": 1292,
+              "anchorY": 382,
+              "flipX": false
+            },
+            {
+              "x": 32,
+              "y": 395,
+              "w": 372,
+              "h": 311,
+              "anchorX": 164,
+              "anchorY": 704,
+              "flipX": false
+            },
+            {
+              "x": 421,
+              "y": 397,
+              "w": 320,
+              "h": 291,
+              "anchorX": 552,
+              "anchorY": 686,
+              "flipX": false
+            },
+            {
+              "x": 773,
+              "y": 393,
+              "w": 306,
+              "h": 332,
+              "anchorX": 886,
+              "anchorY": 724,
+              "flipX": true
+            },
+            {
+              "x": 1144,
+              "y": 447,
+              "w": 275,
+              "h": 263,
+              "anchorX": 1319,
+              "anchorY": 708,
+              "flipX": false
+            },
+            {
+              "x": 32,
+              "y": 795,
+              "w": 322,
+              "h": 254,
+              "anchorX": 165,
+              "anchorY": 1047,
+              "flipX": false
+            },
+            {
+              "x": 464,
+              "y": 725,
+              "w": 214,
+              "h": 315,
+              "anchorX": 523,
+              "anchorY": 1038,
+              "flipX": false
+            },
+            {
+              "x": 775,
+              "y": 734,
+              "w": 293,
+              "h": 324,
+              "anchorX": 978,
+              "anchorY": 1056,
+              "flipX": false
+            },
+            {
+              "x": 1121,
+              "y": 793,
+              "w": 298,
+              "h": 263,
+              "anchorX": 1287,
+              "anchorY": 1054,
+              "flipX": false
+            }
+          ]
+        },
+        "combat": {
+          "url": "fighters/tideknuckle/combat.webp",
+          "width": 1448,
+          "height": 1086,
+          "referenceHeight": 332,
+          "frames": [
+            {
+              "x": 33,
+              "y": 13,
+              "w": 303,
+              "h": 332,
+              "anchorX": 187,
+              "anchorY": 343,
+              "flipX": false
+            },
+            {
+              "x": 389,
+              "y": 14,
+              "w": 319,
+              "h": 331,
+              "anchorX": 547,
+              "anchorY": 343,
+              "flipX": false
+            },
+            {
+              "x": 737,
+              "y": 13,
+              "w": 281,
+              "h": 333,
+              "anchorX": 895,
+              "anchorY": 344,
+              "flipX": false
+            },
+            {
+              "x": 1083,
+              "y": 86,
+              "w": 341,
+              "h": 259,
+              "anchorX": 1204,
+              "anchorY": 343,
+              "flipX": false
+            },
+            {
+              "x": 51,
+              "y": 353,
+              "w": 248,
+              "h": 345,
+              "anchorX": 119,
+              "anchorY": 697,
+              "flipX": false
+            },
+            {
+              "x": 401,
+              "y": 366,
+              "w": 308,
+              "h": 277,
+              "anchorX": 536,
+              "anchorY": 641,
+              "flipX": false
+            },
+            {
+              "x": 723,
+              "y": 420,
+              "w": 319,
+              "h": 265,
+              "anchorX": 884,
+              "anchorY": 683,
+              "flipX": false
+            },
+            {
+              "x": 1099,
+              "y": 402,
+              "w": 316,
+              "h": 292,
+              "anchorX": 1251,
+              "anchorY": 692,
+              "flipX": false
+            },
+            {
+              "x": 61,
+              "y": 698,
+              "w": 246,
+              "h": 366,
+              "anchorX": 168,
+              "anchorY": 1062,
+              "flipX": false
+            },
+            {
+              "x": 371,
+              "y": 698,
+              "w": 324,
+              "h": 355,
+              "anchorX": 509,
+              "anchorY": 1051,
+              "flipX": false
+            },
+            {
+              "x": 730,
+              "y": 739,
+              "w": 339,
+              "h": 299,
+              "anchorX": 910,
+              "anchorY": 1036,
+              "flipX": false
+            },
+            {
+              "x": 1138,
+              "y": 729,
+              "w": 271,
+              "h": 321,
+              "anchorX": 1260,
+              "anchorY": 1048,
+              "flipX": false
+            }
+          ]
+        },
+        "reactions": {
+          "url": "fighters/tideknuckle/reactions.webp",
+          "width": 1536,
+          "height": 1024,
+          "referenceHeight": 349,
+          "frames": [
+            {
+              "x": 33,
+              "y": 12,
+              "w": 321,
+              "h": 349,
+              "anchorX": 222,
+              "anchorY": 359,
+              "flipX": false
+            },
+            {
+              "x": 441,
+              "y": 71,
+              "w": 331,
+              "h": 288,
+              "anchorX": 636,
+              "anchorY": 357,
+              "flipX": false
+            },
+            {
+              "x": 803,
+              "y": 12,
+              "w": 357,
+              "h": 355,
+              "anchorX": 1008,
+              "anchorY": 365,
+              "flipX": false
+            },
+            {
+              "x": 1202,
+              "y": 39,
+              "w": 301,
+              "h": 325,
+              "anchorX": 1355,
+              "anchorY": 362,
+              "flipX": false
+            },
+            {
+              "x": 34,
+              "y": 378,
+              "w": 349,
+              "h": 285,
+              "anchorX": 192,
+              "anchorY": 662,
+              "flipX": false
+            },
+            {
+              "x": 499,
+              "y": 417,
+              "w": 208,
+              "h": 233,
+              "anchorX": 623,
+              "anchorY": 648,
+              "flipX": false
+            },
+            {
+              "x": 755,
+              "y": 450,
+              "w": 382,
+              "h": 202,
+              "anchorX": 980,
+              "anchorY": 650,
+              "flipX": false
+            },
+            {
+              "x": 1151,
+              "y": 535,
+              "w": 377,
+              "h": 118,
+              "anchorX": 1278,
+              "anchorY": 651,
+              "flipX": false
+            },
+            {
+              "x": 49,
+              "y": 723,
+              "w": 330,
+              "h": 280,
+              "anchorX": 221,
+              "anchorY": 1001,
+              "flipX": false
+            },
+            {
+              "x": 457,
+              "y": 663,
+              "w": 295,
+              "h": 339,
+              "anchorX": 603,
+              "anchorY": 1000,
+              "flipX": false
+            },
+            {
+              "x": 836,
+              "y": 664,
+              "w": 271,
+              "h": 341,
+              "anchorX": 979,
+              "anchorY": 1003,
+              "flipX": false
+            },
+            {
+              "x": 1173,
+              "y": 757,
+              "w": 327,
+              "h": 246,
+              "anchorX": 1351,
+              "anchorY": 1001,
+              "flipX": false
+            }
+          ]
+        }
+      }
+    }
+  }
+}

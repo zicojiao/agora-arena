@@ -1,0 +1,11 @@
+# 行尾：仓库里存 LF，**并且检出时也强制 LF**（eol=lf 会盖过各人的 core.autocrlf）。
+# 不是"交给平台决定"——那是只写 `text=auto` 的效果。这里选强制，理由是这个仓库
+# 全程在 Windows 上开发、每次 git add 都刷一屏 "LF will be replaced by CRLF"，
+# 而 Vite/Node 这套工具链对 LF 没有任何不适。
+* text=auto eol=lf
+
+# 二进制素材：不做行尾转换（转换会直接损坏文件），也不做文本 diff
+*.png binary
+*.jpg binary
+*.woff2 binary
+*.ogg binary

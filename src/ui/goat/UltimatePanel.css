@@ -1,0 +1,40 @@
+/* A voice stage in the middle of the arena; the frozen fight remains visible behind it. */
+.ultimate-backdrop { position:fixed; z-index:150; inset:0; display:grid; place-items:center; padding:20px; background:rgba(3,10,19,.14); backdrop-filter:blur(3px); -webkit-backdrop-filter:blur(3px); touch-action:pan-y; }
+.ultimate-backdrop .ultimate-panel { position:relative; inset:auto; width:min(720px,100%); max-height:calc(100dvh - 40px); overflow:auto; padding:28px 36px 26px; border:1px solid rgba(173,218,242,.22); border-radius:20px; background:radial-gradient(ellipse at 50% 36%,rgba(29,66,65,.24),rgba(6,18,30,.42) 72%); box-shadow:0 24px 90px rgba(0,0,0,.25); text-align:center; text-shadow:0 1px 5px rgba(0,0,0,.85); }
+.ultimate-backdrop .ultimate-panel::before { display:none; }
+.ultimate-backdrop .ultimate-panel .close { top:14px; right:14px; width:36px; height:36px; border-radius:50%; }
+.ultimate-backdrop .ultimate-panel .director-kicker { justify-content:center; margin:0 32px 12px; color:#a4f465; font:800 10px/1.4 'DM Sans'; letter-spacing:1.6px; }
+.ultimate-backdrop .ultimate-panel h2 { font:900 clamp(34px,4.5vw,56px)/.98 'Barlow Condensed'; letter-spacing:-1px; margin:0; }
+.ultimate-backdrop .ultimate-panel .ultimate-heading > p { margin:10px 0 0; color:#c1d3df; font-size:13px; line-height:1.5; }
+.ultimate-backdrop .ultimate-panel .ultimate-voice { padding:26px 0 16px; }
+.ultimate-backdrop .ultimate-panel .voice-orb { flex-direction:column; gap:22px; }
+.ultimate-backdrop .ultimate-panel .voice-orb button { width:142px; height:142px; flex:none; color:#b5f884; border:1px solid #9df35b88; background:#163d34; box-shadow:0 0 0 12px #9df35b0a,0 0 0 26px #9df35b06; }
+.ultimate-backdrop .ultimate-panel .voice-orb button svg { width:60px; height:60px; }
+.ultimate-backdrop .ultimate-panel .voice-orb.ready button { background:#a4f465; color:#092321; box-shadow:0 0 0 13px #9df35b12,0 0 0 27px #9df35b07,0 0 65px #9df35b24; animation:ultimate-listen 2s ease-in-out infinite; }
+.ultimate-backdrop .ultimate-panel .voice-orb.thinking button { color:#8be3ff; background:#153449; border-color:#8be3ff77; }
+.ultimate-backdrop .ultimate-panel .voice-orb button:disabled,.ultimate-backdrop .ultimate-panel .voice-orb button[aria-disabled="true"] { cursor:default; }
+.ultimate-backdrop .ultimate-panel .voice-orb.error button { border-color:#ff9b8c; color:#ffc1b6; background:#4e2626; }
+.ultimate-backdrop .ultimate-panel .voice-orb span { font:700 12px/1.5 'DM Sans'; color:#d1e3ed; letter-spacing:.6px; }
+.ultimate-backdrop .ultimate-panel .voice-meter { display:flex; align-items:center; justify-content:center; gap:4px; height:24px; margin:8px 0 0; }
+.ultimate-backdrop .ultimate-panel .voice-meter i { width:5px; height:23px; background:#80dcf6; border-radius:3px; transition:transform .1s; }
+.ultimate-backdrop .ultimate-panel .speaking-hint { display:block; color:#8ea7b8; font-size:10px; line-height:1.5; margin-top:5px; }
+.ultimate-backdrop .ultimate-panel .director-intro { margin:0 0 10px; font-size:11px; color:#a9bfce; line-height:1.5; }
+.ultimate-backdrop .ultimate-panel .director-intro b { color:#d7e9ef; font-size:10px; }
+.ultimate-backdrop .ultimate-panel .ultimate-examples { margin:0 0 18px; }
+.ultimate-backdrop .ultimate-panel .ultimate-examples > small { display:block; margin-bottom:9px; color:#7f9bac; font-size:9px; font-weight:700; letter-spacing:1.6px; }
+.ultimate-backdrop .ultimate-panel .ultimate-examples > div { display:flex; flex-wrap:wrap; gap:9px; justify-content:center; }
+.ultimate-backdrop .ultimate-panel .ultimate-examples span { display:inline-flex; align-items:center; gap:6px; padding:7px 10px; color:#d3e0e7; border:1px solid #aec7d32b; border-radius:20px; font-size:11px; background:#bbd9e608; }
+.ultimate-backdrop .ultimate-panel .ultimate-examples span:first-child svg { color:#ffaf72; }
+.ultimate-backdrop .ultimate-panel .ultimate-examples span:nth-child(2) svg { color:#74ddff; }
+.ultimate-backdrop .ultimate-panel .ultimate-examples span:nth-child(3) svg { color:#e6df85; }
+.ultimate-backdrop .ultimate-panel .ultimate-typed { display:grid; grid-template-columns:1fr auto; align-items:end; gap:12px; text-align:left; padding-top:16px; border-top:1px solid #bdd6e51a; }
+.ultimate-backdrop .ultimate-panel .move-input > span { color:#90aaba; font-size:9px; }
+.ultimate-backdrop .ultimate-panel .move-input textarea { height:56px; border-radius:8px; font-size:12px; padding:10px 12px; background:#020b1466; }
+.ultimate-backdrop .ultimate-panel .generate-button { width:auto; margin:0; height:56px; padding:0 16px; border-radius:8px; font-size:14px; }
+.ultimate-backdrop .ultimate-panel .transcript { min-height:0; max-height:72px; text-align:left; border-radius:5px; }
+.ultimate-backdrop .ultimate-panel .panel-error { margin:12px 0 0; font-size:12px; line-height:1.5; }
+.ultimate-backdrop .ultimate-panel button:focus-visible,.ultimate-backdrop .ultimate-panel textarea:focus-visible { outline:2px solid #8be3ff; outline-offset:4px; }
+@keyframes ultimate-listen { 50% { box-shadow:0 0 0 18px #9df35b10,0 0 0 33px #9df35b04,0 0 75px #9df35b2c; } }
+@media(max-width:600px) { .ultimate-backdrop { padding:12px; }.ultimate-backdrop .ultimate-panel { padding:24px 18px 20px; max-height:calc(100dvh - 24px); border-radius:16px; }.ultimate-backdrop .ultimate-panel .ultimate-typed { grid-template-columns:1fr; gap:9px; }.ultimate-backdrop .ultimate-panel .generate-button { height:42px; }.ultimate-backdrop .ultimate-panel .director-kicker { font-size:8px; }.ultimate-backdrop .ultimate-panel .ultimate-examples span { font-size:10px; } }
+@media(max-height:560px) and (min-width:601px) { .ultimate-backdrop { padding:12px; }.ultimate-backdrop .ultimate-panel { display:grid; grid-template-columns:.8fr 1.2fr; gap:12px 24px; max-height:calc(100dvh - 24px); padding:20px 26px; }.ultimate-backdrop .ultimate-panel .ultimate-heading { grid-column:1/-1; }.ultimate-backdrop .ultimate-panel .director-kicker { margin-bottom:6px; font-size:9px; }.ultimate-backdrop .ultimate-panel h2 { font-size:36px; }.ultimate-backdrop .ultimate-panel .ultimate-heading > p { margin-top:6px; font-size:11px; }.ultimate-backdrop .ultimate-panel .ultimate-voice { padding:10px 0; align-self:center; }.ultimate-backdrop .ultimate-panel .voice-orb button { width:96px; height:96px; }.ultimate-backdrop .ultimate-panel .voice-orb button svg { width:42px; height:42px; }.ultimate-backdrop .ultimate-panel .voice-orb { gap:16px; }.ultimate-backdrop .ultimate-panel .voice-orb span { font-size:10px; }.ultimate-backdrop .ultimate-panel .speaking-hint { font-size:9px; }.ultimate-backdrop .ultimate-panel .director-intro { margin-bottom:8px; }.ultimate-backdrop .ultimate-panel .ultimate-examples { margin-bottom:10px; }.ultimate-backdrop .ultimate-panel .ultimate-examples > div { gap:5px; }.ultimate-backdrop .ultimate-panel .ultimate-examples span { padding:5px 8px; font-size:10px; }.ultimate-backdrop .ultimate-panel .ultimate-typed { grid-template-columns:1fr; gap:6px; padding-top:10px; }.ultimate-backdrop .ultimate-panel .move-input textarea { height:43px; font-size:11px; }.ultimate-backdrop .ultimate-panel .generate-button { height:34px; font-size:12px; } }
+@media(prefers-reduced-motion:reduce) { .ultimate-backdrop .ultimate-panel .voice-orb.ready button { animation:none; }.ultimate-backdrop .ultimate-panel .voice-meter i { transition:none; } }

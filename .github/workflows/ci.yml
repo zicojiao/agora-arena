@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  pull_request:
+    paths-ignore:
+      - "**/*.md"
+      - "LICENSE"
+      - "docs/**"
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - "**/*.md"
+      - "LICENSE"
+      - "docs/**"
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      # .npmrc sets legacy-peer-deps to keep the tested Agora SDK versions together.
+      - run: npm ci
+      # Tests stub every provider; no API keys are needed.
+      - run: npm run verify

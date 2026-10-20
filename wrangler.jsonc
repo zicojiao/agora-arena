@@ -1,0 +1,21 @@
+{
+  // Cloudflare Workers deployment (an alternative to Vercel). The same server/index.js serves the APIs and gates dist/.
+  // Secrets: REACTOR_API_KEY, OPENAI_API_KEY, AGORA_APP_ID, AGORA_APP_CERTIFICATE, ARENA_ACCESS_PASSWORD
+  // (`npx wrangler secret put <NAME>`). Deploy with `npm run deploy:workers`.
+  // Wrangler uses the account you are logged in to. To serve a custom domain, add for example:
+  //   "routes": [{ "pattern": "arena.example.com", "custom_domain": true }]
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "agora-arena",
+  "workers_dev": true,
+  "preview_urls": false,
+  "main": "server/index.js",
+  "compatibility_date": "2026-09-14",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "binding": "ASSETS",
+    "directory": "./dist",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": true
+  },
+  "observability": { "enabled": true }
+}

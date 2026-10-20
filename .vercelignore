@@ -1,0 +1,17 @@
+dist
+.env*
+.artifacts
+.gstack
+.claude
+.superpowers
+_raw
+_bak
+references
+tests
+*.log
+.git-history
+social-media
+art-source
+docs
+.DS_Store
+.wrangler
